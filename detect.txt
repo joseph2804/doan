@@ -1,0 +1,1 @@
+[{"faceId": "ab3ee66d-0d32-42bf-ae39-f24cda80b13b", "faceRectangle": {"width": 192, "top": 166, "height": 192, "left": 277}}]

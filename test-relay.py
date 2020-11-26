@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO
 import time
-LockPin = 3                        # pin11
+LockPin = 33                        # pin11
 
 GPIO.setmode(GPIO.BOARD)            # Numbers GPIOs by physical location
 GPIO.setup(LockPin, GPIO.OUT)        # Set LedPin's mode is output

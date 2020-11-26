@@ -6,6 +6,8 @@ from time import sleep
 cloudinary.config(cloud_name='dcyfnbxuu',
                   api_key='718646468651413',
                   api_secret='kmmxq--u1nRP_djslISleCg7Buk')
+if os.path.exists("url.txt"):
+  os.remove("url.txt")
 f1 = open("url.txt", "a")
 for i in range(30):  
     f = open('images/image%s.jpg'  % i, 'rb')       
